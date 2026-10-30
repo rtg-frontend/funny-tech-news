@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NEO TECH // Space Edition</title>
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+  <!-- Starfield background -->
+  <div class="stars-bg"></div>
+
+  <header class="header">
+    <div class="header__container">
+      <h1 class="header__logo">NEO<span>TECH</span></h1>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle Theme">
+        <i class="theme-btn__icon fa-solid fa-sun"></i>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      
+      <!-- Main Hero News Card -->
+      <article class="news-card news-card--hero">
+        <!-- КАРТИНКА 1 (HERO): Сюда закидываешь сгенерированный Neuralink / X-OS баннер -->
+        <div class="news-card__img-wrapper">
+          <img src="img/elon.jpg" alt="X-OS Neuralink Interface" class="news-card__img">
+        </div>
+        
+        <div class="news-card__content">
+          <div class="news-card__badge">BREAKING NEWS</div>
+          <h2 class="news-card__title">Elon Musk Unveils X-OS: The Direct Neuralink Powered Operating System</h2>
+          <p class="news-card__text">
+            No physical screens or keyboards required. The revolutionary operating system renders a 3D workspace directly into the user's visual cortex and compiles code at the speed of thought.
+          </p>
+          <div class="news-card__meta">
+            <span><i class="fa-solid fa-clock"></i> 10 mins ago</span>
+            <span><i class="fa-solid fa-microchip"></i> Neurotech</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Grid of Secondary News Cards -->
+      <div class="news-grid">
+
+        <article class="news-card">
+          <!-- КАРТИНКА 2: Сервер на Каспии -->
+          <div class="news-card__img-wrapper">
+            <img src="img/caspian.jpg" alt="Caspian Sea AI Server" class="news-card__img">
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">Caspian Marine AI Server</h3>
+            <p class="news-card__text">
+              Kazakhstan launches the world's first zero-carbon datacenter powered entirely by wave kinetic energy and cooled by sea breezes.
+            </p>
+            <div class="news-card__meta">
+              <span><i class="fa-solid fa-clock"></i> 2 hours ago</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <!-- КАРТИНКА 3: GPT-6 -->
+          <div class="news-card__img-wrapper">
+            <img src="img/gpt.jpg" alt="OpenAI GPT-6" class="news-card__img">
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">OpenAI Releases GPT-6</h3>
+            <p class="news-card__text">
+              The new model outputs bug-free code, auto-refactors legacy architectures, and politely requests a monthly crypto salary.
+            </p>
+            <div class="news-card__meta">
+              <span><i class="fa-solid fa-clock"></i> 5 hours ago</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <!-- КАРТИНКА 4: CSS Grid Standard -->
+          <div class="news-card__img-wrapper">
+            <img src="img/css.jpg" alt="W3C CSS Grid Treaty" class="news-card__img">
+          </div>
+          <div class="news-card__content">
+            <h3 class="news-card__title">W3C Standardizes CSS Grid</h3>
+            <p class="news-card__text">
+              A new global web treaty officially establishes CSS Grid and Flexbox as the only legal layout engines worldwide by 2027.
+            </p>
+            <div class="news-card__meta">
+              <span><i class="fa-solid fa-clock"></i> Yesterday</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
